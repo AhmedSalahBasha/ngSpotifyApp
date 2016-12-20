@@ -1,0 +1,39 @@
+<h1>About ngSpotify</h1>
+<h3>Version: 1.0</h3>
+<p>This is an Angular 2 app that uses the Spotify Web API to find artists with their albums and tracks.
+    The Web Design made using Bootstrap Framework v3.3.7.
+    Used Angular CLI to create components and services and other stuff.
+    Developed using Web Storm IDE which is very smarter Javascript Editor. </p>
+
+<!-- Team Members Row -->
+<div class="row">
+  <div class="col-lg-12">
+    <h2 class="page-header">My Other Projects</h2>
+  </div>
+  <div *ngFor="let project of projects">
+    <div class="col-lg-4 col-sm-6 text-center">
+      <img class="img-responsive img-center img-project" src="{{project.imgUrl}}" alt="">
+      <h3><a target="_blank" href="{{project.linkUrl}}">{{project.title}}</a>
+      </h3><h5>{{project.subtitle}}</h5>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- Footer -->
+<footer>
+  <div class="row">
+    <div class="col-md-4">
+      <p>Copyright &copy; Ahmed Salah 2016</p>
+    </div>
+    <!-- /.col-lg-12 -->
+    <div class="col-md-4"></div>
+    <div class="contact col-md-4">
+      <a href="mailto:a.salah.b@gmail.com"><img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt=""></a>
+      <a target="_blank" href="https://github.com/AhmedSalahBasha"><img height="30px" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt=""></a>
+      <a target="_blank" href="https://eg.linkedin.com/in/asalahb"><img height="30px" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" alt=""></a>
+      <a target="_blank" href="https://www.facebook.com/AbuSalah93"><img height="30px" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt=""></a>
+    </div>
+  </div>
+  <!-- /.row -->
+</footer>
